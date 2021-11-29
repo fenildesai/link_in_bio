@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Davide Agostini Hub',
+      title: 'Fenil Desai',
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
@@ -33,9 +33,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String socialName = "@davideagostini";
+  String socialName = "@fenildesai";
   String description =
-      "Mobile Software Engineer (Android/Flutter) \nwho loves create interesting mobile apps with an eye to UI.";
+      "Software Engineer \nwho loves to create interesting mobile apps with an eye to UI.";
 
   @override
   Widget build(BuildContext context) {
@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 30,
                 ),
                 SocialButton(
-                  url: 'https://davideagostini.medium.com',
+                  url: 'https://fenildesai.medium.com',
                   icon: MdiIcons.typewriter,
                   iconColor: Colors.black,
                   label: "Medium blog",
@@ -167,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 25,
                 ),
                 SocialButton(
-                  url: 'https://github.com/davideagostini',
+                  url: 'https://github.com/fenildesai',
                   icon: MdiIcons.github,
                   iconColor: Colors.black,
                   label: "GitHub profile",
@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 25,
                 ),
                 SocialButton(
-                  url: 'https://www.linkedin.com/in/davideagostini/',
+                  url: 'https://www.linkedin.com/in/fenildesai/',
                   icon: MdiIcons.linkedin,
                   iconColor: Colors.blue[800],
                   label: "LinkedIn profile",
@@ -185,7 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 25,
                 ),
                 SocialButton(
-                  url: 'https://twitter.com/davideagostini',
+                  url: 'https://twitter.com/fenildesai',
                   icon: MdiIcons.twitter,
                   iconColor: Colors.lightBlue,
                   label: "I'm on Twitter!",
